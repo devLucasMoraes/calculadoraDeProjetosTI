@@ -1,14 +1,21 @@
 public class Profissional {
-    private String Nome;
-    private double SalarioMensalDesejado = 1900;
-    private double FHD = 7;
-    private double diasUteisMensaisPadrao = 20;
+    private String nome;
+    private double salarioMensalDesejado;
+    private double FHD;
+    private double diasUteisMensais;
+
+    public Profissional(String nome, double salarioMensalDesejado, double FHD, double diasUteisMensaisPadrao) {
+        this.nome = nome;
+        this.salarioMensalDesejado = salarioMensalDesejado;
+        this.FHD = FHD;
+        this.diasUteisMensais = diasUteisMensaisPadrao;
+    }
 
     public double CalcalaHorasMensais() {
-        return FHD * diasUteisMensaisPadrao;
+        return FHD * diasUteisMensais;
     }
 
     public double CalculaValorHora() {
-        return (SalarioMensalDesejado * 2) / CalcalaHorasMensais();
+        return (salarioMensalDesejado * 2) / CalcalaHorasMensais();
     }
 }
