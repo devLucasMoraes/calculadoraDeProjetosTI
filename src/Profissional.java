@@ -11,6 +11,11 @@ public class Profissional {
         this.diasUteisMensais = diasUteisMensaisPadrao;
     }
 
+    @Override
+    public String toString() {
+        return this.nome;
+    }
+
     public double CalcalaHorasMensais() {
         return FHD * diasUteisMensais;
     }
