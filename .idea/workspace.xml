@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9716999f-b986-45ec-83d0-49858081e25f" name="Changes" comment="atividade completa">
+    <list default="true" id="9716999f-b986-45ec-83d0-49858081e25f" name="Changes" comment="criado classe orcamento, construtor da classe profissional e primeira interacao com o usuario no metodo main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ItemSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemSistema.java" afterDir="false" />
     </list>
@@ -23,7 +23,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0c97036d-ba60-4b7c-80ca-120e3a8cadc1" />
+        <option name="url" value="https://github.com/devLucasMoraes/calculadoraDeProjetosTI.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
