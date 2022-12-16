@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9716999f-b986-45ec-83d0-49858081e25f" name="Changes" comment="atividade completa">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrcamentoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestaConexao.java" afterDir="false" />
+    <list default="true" id="9716999f-b986-45ec-83d0-49858081e25f" name="Changes" comment="libs auxiliares">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculadoraDeProjetosTI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/calculadoraDeProjetosTI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Orcamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Profissional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profissional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivos_auxiliares/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/arquivos_auxiliares/sql.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/lucas/estudos/java_libs/mchange-commons-java-0.2.19.jar",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/estudos/java_libs/mchange-commons-java-0.2.19.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucas\Desktop\materiais_didatcos_anima\programacao_de_solucoes_computacionais\custoPrograma\calculadoraDeProjetosTI" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -86,7 +80,8 @@
       <updated>1670962680149</updated>
       <workItem from="1670976781561" duration="5792000" />
       <workItem from="1671063146508" duration="4958000" />
-      <workItem from="1671166488182" duration="1038000" />
+      <workItem from="1671166488182" duration="1543000" />
+      <workItem from="1671168226043" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="criado classe orcamento, construtor da classe profissional e primeira interacao com o usuario no metodo main">
       <created>1670982009253</created>
@@ -109,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671166755949</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="atividade completa">
+      <created>1671167615594</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671167615594</updated>
+    </task>
+    <task id="LOCAL-00005" summary="libs auxiliares">
+      <created>1671167989107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671167989107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criado classe orcamento, construtor da classe profissional e primeira interacao com o usuario no metodo main" />
     <MESSAGE value="atividade completa" />
-    <option name="LAST_COMMIT_MESSAGE" value="atividade completa" />
+    <MESSAGE value="libs auxiliares" />
+    <option name="LAST_COMMIT_MESSAGE" value="libs auxiliares" />
   </component>
 </project>
