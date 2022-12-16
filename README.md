@@ -22,7 +22,7 @@ Helber Carneiro Silva Ferreira
 RA: 12722211138
 
 Gustavo Cardoso de Moraes
-Ra: 819116324
+RA: 819116324
 
 
 ## Unidade Curricular de Programação de Soluções Computacionais
