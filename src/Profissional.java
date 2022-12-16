@@ -23,4 +23,8 @@ public class Profissional {
     public double CalculaValorHora() {
         return (salarioMensalDesejado * 2) / CalcalaHorasMensais();
     }
+
+    public String getNome() {
+        return nome;
+    }
 }

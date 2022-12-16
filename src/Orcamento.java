@@ -1,4 +1,5 @@
 public class Orcamento {
+    private Integer id;
     private Profissional profissional;
     private double totalHoras;
     private double custoFinal;
@@ -17,5 +18,21 @@ public class Orcamento {
                 ", totalHoras = " + this.totalHoras +
                 ", custoFinal = " + this.custoFinal +
                 '}';
+    }
+
+    public String getProfissional() {
+        return profissional.getNome();
+    }
+
+    public double getTotalHoras() {
+        return totalHoras;
+    }
+
+    public double getCustoFinal() {
+        return custoFinal;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }

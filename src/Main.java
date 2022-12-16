@@ -1,9 +1,11 @@
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ola! Digite seu nome:");
         String nome = sc.nextLine();
@@ -73,6 +75,11 @@ public class Main {
 
         double custoFinal = totalHoras * profissional.CalculaValorHora();
         Orcamento orcamento = new Orcamento(profissional,totalHoras, custoFinal);
+
+        try(Connection connection = new ConnectionFactory().recuperarConexao()){
+            OrcamentoDAO orcamentoDAO = new OrcamentoDAO(connection);
+            orcamentoDAO.salvar(orcamento);
+        }
         System.out.println(orcamento);
     }
 }
