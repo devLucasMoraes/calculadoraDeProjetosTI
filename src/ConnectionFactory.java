@@ -10,7 +10,7 @@ public class ConnectionFactory {
         ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource();
         comboPooledDataSource.setJdbcUrl("jdbc:mysql://localhost/orcamentos_ti");
         comboPooledDataSource.setUser("root");
-        comboPooledDataSource.setPassword("ht1943");
+        comboPooledDataSource.setPassword("root");
 
         // maximo de conexoes abertas
         comboPooledDataSource.setMaxPoolSize(15);
